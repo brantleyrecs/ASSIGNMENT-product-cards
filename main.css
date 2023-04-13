@@ -1,3 +1,20 @@
 body {
   background-color: gray;
 }
+
+.card-img-top {
+  width: 200px;
+}
+
+img {
+  display: flex;
+  object-position: center;
+}
+
+#size {
+  font-size: 12px;
+}
+
+h2 {
+  text-align: center;
+}
