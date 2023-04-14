@@ -1,7 +1,11 @@
 body {
   display: flex;
-  background-color: black;
+  background-color: #a7bcb9;
   margin: 50px;
+}
+
+#card {
+  box-shadow: 2px 2px;
 }
 
 .card-body {
@@ -9,7 +13,8 @@ body {
 }
 
 #sec1 {
-  background-color: rgb(165, 4, 42);
+  background-color: #e0ebeb;
+  
 }
 
 .col {
@@ -20,8 +25,14 @@ body {
 img {
   display: flex;
   object-position: center;
-  
+  width: 200px;
+  background-image: url(' <img class="overlay" src="https://raw.githubusercontent.com/morecallan/css102-e6/master/images/soldOut.png" alt="">');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: .7;
 }
+
 
 #size {
   font-size: 12px;
