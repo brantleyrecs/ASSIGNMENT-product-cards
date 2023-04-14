@@ -1,18 +1,21 @@
 body {
-  background-color: gray;
+  display: flex;
+  background-color: black;
+  margin: 50px;
+}
+
+.card-body {
+  background-color: rgb(73, 133, 161);
+}
+
+#sec1 {
+  background-color: rgb(165, 4, 42);
 }
 
 .col {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: center;
   align-content: center;
-  
 }
 
-.card-img-top {
-  
-}
 
 img {
   display: flex;
@@ -26,7 +29,27 @@ img {
 
 h2 {
   text-align: center;
+  background-color: gray;
+  font-family: 'Chivo Mono', monospace;
+ color: white;
   padding: 10px;
   margin: 10px;
   border: 1px solid lightblue;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+h6 {
+  background-color: darkgray;
+  color: yellow;
+}
+
+footer {
+  font-size: 10px;
+}
+
+#size {
+  font-size: 15px;
 }
