@@ -1,15 +1,16 @@
-body {
-  display: flex;
-  background-color: #a7bcb9;
-  margin: 50px;
-}
 
-#card {
-  box-shadow: 2px 2px;
-}
+  body {
+    display: flex;
+    background-color: #a7bcb9;
+    margin: 50px;
+  }
+
+
 
 .card-body {
   background-color: rgb(73, 133, 161);
+  
+  
 }
 
 #sec1 {
@@ -26,12 +27,13 @@ img {
   display: flex;
   object-position: center;
   width: 200px;
-  background-image: url(' <img class="overlay" src="https://raw.githubusercontent.com/morecallan/css102-e6/master/images/soldOut.png" alt="">');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: .7;
 }
+
+.overlay {
+  position: absolute;
+}
+
+
 
 
 #size {
@@ -50,11 +52,18 @@ h2 {
 
 h5 {
   font-weight: bold;
+  font-family: "Sofia", sans-serif;
 }
 
 h6 {
   background-color: darkgray;
+  font-family: "Audiowide", sans-serif;
   color: yellow;
+  text-align: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  margin-bottom: -.0005px;
 }
 
 footer {
